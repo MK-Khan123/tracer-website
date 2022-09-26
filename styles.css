@@ -269,7 +269,7 @@ nav {
   padding-top: 60px;
 }
 
-#success-story {
+#our-philosophy {
   background-color: #f6f6f6;
 }
 
@@ -296,46 +296,22 @@ nav {
   padding-bottom: 30px;
 }
 
-.brand-logos div {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 0;
-}
-
-.brand-logos div::-webkit-scrollbar {
-  background: transparent;
-}
-
-.brand-logos div a {
+.partner-title {
+  font-size: 32px;
+  margin-top: 4rem;
   text-align: center;
-  display: table-cell;
-  width: 12%;
-  border: 2px solid #eaeaea;
-  background-color: #fff;
-  padding: 25px;
-  cursor: pointer;
-
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
 }
 
-.brand-logos div a:hover,
-.brand-logos div a:focus {
-  border-right: 2px solid #eaeaea !important;
-
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+.clients, .partner-companies, .alliance-companies, .research-equipments, .defense-equipments {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.brand-logos div a:not(:last-child) {
-  border-right: none;
-}
-
-.brand-logos div a img {
-  height: 30px;
+.client-company, .partner-company, .alliance-company, .research-company, .defense-company {
+  width: 128px;
 }
 
 #highlights {
@@ -347,34 +323,6 @@ nav {
   border-top-right-radius: 55px;
   border-bottom-right-radius: 120px;
   border-bottom-left-radius: 55px;
-}
-
-#topList {
-  background-color: #f6f6f6;
-}
-
-#topList a {
-  border: none;
-  padding: 0 20px;
-  background-color: #f6f6f6;
-}
-
-#topList a:hover {
-  border: none !important;
-
-  -webkit-transform: scale(1);
-  transform: scale(1);
-}
-
-#topList a span {
-  font-size: 13px;
-  color: #717171;
-  font-family: lato;
-  display: block;
-}
-
-#topList img {
-  height: 70px;
 }
 
 footer {
@@ -754,11 +702,6 @@ a#gotop {
     display: none;
   }
 
-  .brand-logos div {
-    overflow-x: auto;
-    overflow-y: hidden;
-  }
-
   #delivery .col-5 {
     display: block;
     float: none;
@@ -915,7 +858,7 @@ a#gotop {
   }
 
   #highlights,
-  #success-story {
+  #our-philosophy {
     display: inline-block;
   }
 
@@ -987,7 +930,7 @@ a#gotop {
     padding-top: 40px;
   }
 
-  #success-story,
+  #our-philosophy,
   #highlights {
     display: inline-block;
   }
@@ -1083,7 +1026,7 @@ a#gotop {
     width: 32.5%;
   }
 
-  #success-story {
+  #our-philosophy {
     background-color: #f6f6f6;
     display: inline-block;
   }
@@ -1092,11 +1035,6 @@ a#gotop {
     width: 75%;
     text-align: center;
     margin-top: 0;
-  }
-
-  .brand-logos div {
-    overflow-x: auto;
-    overflow-y: hidden;
   }
 
   .slider .slide-text div h2 {
@@ -1203,7 +1141,7 @@ a#gotop {
     display: block;
   }
 
-  #success-story .slider {
+  #our-philosophy .slider {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
