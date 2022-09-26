@@ -232,10 +232,8 @@ nav {
   text-align: center;
 }
 
-#services ul li .fas,
-#services ul li .fab {
+.icons {
   font-size: 80px;
-  color: #ef4b42;
 }
 
 #services ul li div {
